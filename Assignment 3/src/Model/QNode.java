@@ -3,7 +3,7 @@ package Model;
 /**
  * this class will create the variables and methods
  * required to use nodes in other areas and lists
- * @author jonah thompson
+ * @author Opemipo Lano
  *
  * @param <T> is a generic type that will be determined later
  */

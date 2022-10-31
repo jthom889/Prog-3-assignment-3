@@ -9,7 +9,7 @@ import Model.QueueInterface;
 /**
  * this class will set up and run the program. it will also create
  * a method to print the contents of any QueueInterface
- * @author Ope
+ * @author Opemipo Lano
  *
  */
 public class Application {
@@ -26,6 +26,7 @@ public class Application {
 		String name;
 		int number = -1;
 		
+		//validating the input with a loop
 		do {
 			
 			System.out.println("How many names would you like to print: ");
@@ -41,6 +42,7 @@ public class Application {
 				
 		} while(number < 1);
 		
+		//writing a name n number of times
 		for(int i = 0; i < number; i++) {
 			System.out.println("Write a name: ");
 			name = kb.nextLine();
@@ -66,7 +68,4 @@ public class Application {
 		q.printQueue();
 		
 	}
-	
-
-
 }

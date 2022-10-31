@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 /**
  * this class will set up all required methods
  *  and variables needed to create a linked queue
- * @author Ope
+ * @author Opemipo Lano
  * @param <T> is the generic type so that queue 
  * can be created using any object
  */
