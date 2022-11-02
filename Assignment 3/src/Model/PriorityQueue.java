@@ -59,7 +59,7 @@ public class PriorityQueue<T> implements QueueInterface<T> {
 				}
 				
 				//add before but not first
-				else if(result < 0) {
+				else if(result > 0) {
 					toAdd.setNext(curr.getNext());
 					curr.setNext(toAdd);
 					break;
@@ -133,11 +133,15 @@ public class PriorityQueue<T> implements QueueInterface<T> {
 		QNode<T> current = new QNode<T>();
 		current = front;
 		
-		while(current.getNext() != null) {
-			System.out.println(current);
+		do {
+			System.out.println(current.getData());
 			current = current.getNext();
+			}
+		
+		while(current.getNext() != null) ;
 			
-		}
+			
+		
 		
 	}
 	

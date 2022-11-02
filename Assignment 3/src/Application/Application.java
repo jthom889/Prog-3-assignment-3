@@ -29,7 +29,7 @@ public class Application {
 		//validating the input with a loop
 		do {
 			
-			System.out.println("How many names would you like to print: ");
+			System.out.println("How many names would you like to add: ");
 			String num = kb.nextLine();	
 			
 			try {
@@ -57,7 +57,10 @@ public class Application {
 			}
 		}
 		
+	
 	}
+		
+	
 	
 	/**
 	 * this method will print the contents of 

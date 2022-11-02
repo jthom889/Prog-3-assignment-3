@@ -111,12 +111,12 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 		QNode<T> current = new QNode<T>();
 		current = front;
 		
-		while(current.getNext() != null) {
-			System.out.println(current);
+		do {
+			System.out.println(current.getData());
 			current = current.getNext();
-			
 		}
-		
+		while(current.getNext() != null) ;
+				
 	}
 	
 	@Override
